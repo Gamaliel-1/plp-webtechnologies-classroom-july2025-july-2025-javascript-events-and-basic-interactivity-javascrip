@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My First Interactive Web Page</h1>
+
+  <!-- Light/Dark Mode -->
+  <button id="themeBtn">Change Theme</button>
+
+  <!-- Counter -->
+  <h2>Counter</h2>
+  <p>Score: <span id="count">0</span></p>
+  <button id="addBtn">Add</button>
+  <button id="resetBtn">Reset</button>
+
+  <!-- FAQ -->
+  <h2>FAQ</h2>
+  <h3 class="question">What is JavaScript?</h3>
+  <p class="answer">It makes web pages interactive!</p>
+
+  <h3 class="question">What is HTML?</h3>
+  <p class="answer">It is the structure of a web page.</p>
+
+  <!-- Form -->
+  <h2>Sign Up Form</h2>
+  <form id="myForm">
+    <label>Name:</label>
+    <input type="text" id="name"><br>
+    <span id="nameError" class="error"></span><br>
+
+    <label>Email:</label>
+    <input type="text" id="email"><br>
+    <span id="emailError" class="error"></span><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br>
+    <span id="passwordError" class="error"></span><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="formMessage"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
